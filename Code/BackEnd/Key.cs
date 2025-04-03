@@ -4,7 +4,7 @@ namespace ThreadEncryption.BackEnd
 {
     internal static class Key
     {
-        public static int[] polynomial = { 38, 6, 5, 1 };
+        public static int[] polynomial = { 34, 15, 14, 1 };
 
         public static byte[] Generate(byte[] key, int length)
         {

@@ -23,8 +23,8 @@
         #region Код, автоматически созданный конструктором форм Windows
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -55,9 +55,9 @@
             this.registerStatusLabel.Location = new System.Drawing.Point(14, 47);
             this.registerStatusLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.registerStatusLabel.Name = "registerStatusLabel";
-            this.registerStatusLabel.Size = new System.Drawing.Size(300, 29);
+            this.registerStatusLabel.Size = new System.Drawing.Size(347, 32);
             this.registerStatusLabel.TabIndex = 0;
-            this.registerStatusLabel.Text = "Состояние регистра (38):\r\n";
+            this.registerStatusLabel.Text = "Состояние регистра (34):\r\n";
             // 
             // registerStatusTextBox
             // 
@@ -65,9 +65,9 @@
             this.registerStatusTextBox.Margin = new System.Windows.Forms.Padding(5);
             this.registerStatusTextBox.MaxLength = 200;
             this.registerStatusTextBox.Name = "registerStatusTextBox";
-            this.registerStatusTextBox.Size = new System.Drawing.Size(696, 34);
+            this.registerStatusTextBox.Size = new System.Drawing.Size(696, 39);
             this.registerStatusTextBox.TabIndex = 1;
-            this.registerStatusTextBox.Text = "11111111111111111111111111111111111111";
+            this.registerStatusTextBox.Text = "1111111111111111111111111111111111";
             this.registerStatusTextBox.TextChanged += new System.EventHandler(this.registerStatusTextBox_TextChanged);
             // 
             // registerLengthLabel
@@ -77,7 +77,7 @@
             this.registerLengthLabel.Location = new System.Drawing.Point(14, 91);
             this.registerLengthLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.registerLengthLabel.Name = "registerLengthLabel";
-            this.registerLengthLabel.Size = new System.Drawing.Size(301, 29);
+            this.registerLengthLabel.Size = new System.Drawing.Size(350, 32);
             this.registerLengthLabel.TabIndex = 2;
             this.registerLengthLabel.Text = "Текущая длина регистра:";
             // 
@@ -88,9 +88,9 @@
             this.registerLengthTextBox.MaxLength = 50;
             this.registerLengthTextBox.Name = "registerLengthTextBox";
             this.registerLengthTextBox.ReadOnly = true;
-            this.registerLengthTextBox.Size = new System.Drawing.Size(696, 34);
+            this.registerLengthTextBox.Size = new System.Drawing.Size(696, 39);
             this.registerLengthTextBox.TabIndex = 3;
-            this.registerLengthTextBox.Text = "38";
+            this.registerLengthTextBox.Text = "34";
             // 
             // plainTextLabel
             // 
@@ -99,7 +99,7 @@
             this.plainTextLabel.Location = new System.Drawing.Point(14, 232);
             this.plainTextLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.plainTextLabel.Name = "plainTextLabel";
-            this.plainTextLabel.Size = new System.Drawing.Size(199, 29);
+            this.plainTextLabel.Size = new System.Drawing.Size(232, 32);
             this.plainTextLabel.TabIndex = 4;
             this.plainTextLabel.Text = "Исходный текст:";
             // 
@@ -122,7 +122,7 @@
             this.generatedKeyLabel.Location = new System.Drawing.Point(14, 371);
             this.generatedKeyLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.generatedKeyLabel.Name = "generatedKeyLabel";
-            this.generatedKeyLabel.Size = new System.Drawing.Size(289, 29);
+            this.generatedKeyLabel.Size = new System.Drawing.Size(338, 32);
             this.generatedKeyLabel.TabIndex = 6;
             this.generatedKeyLabel.Text = "Сгенерированный ключ:";
             // 
@@ -145,7 +145,7 @@
             this.cipherTextLabel.Location = new System.Drawing.Point(14, 512);
             this.cipherTextLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.cipherTextLabel.Name = "cipherTextLabel";
-            this.cipherTextLabel.Size = new System.Drawing.Size(283, 29);
+            this.cipherTextLabel.Size = new System.Drawing.Size(326, 32);
             this.cipherTextLabel.TabIndex = 8;
             this.cipherTextLabel.Text = "Зашифрованный текст:";
             // 
@@ -164,29 +164,26 @@
             // menuStrip
             // 
             this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.fileToolStripMenuItem });
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(1039, 33);
+            this.menuStrip.Size = new System.Drawing.Size(1039, 38);
             this.menuStrip.TabIndex = 10;
             this.menuStrip.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.openToolStripMenuItem,
-            this.saveToolStripMenuItem});
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { this.openToolStripMenuItem, this.saveToolStripMenuItem });
             this.fileToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(73, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(82, 34);
             this.fileToolStripMenuItem.Text = "Файл";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(269, 30);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(293, 34);
             this.openToolStripMenuItem.Text = "Открыть";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -194,7 +191,7 @@
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(269, 30);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(293, 34);
             this.saveToolStripMenuItem.Text = "Сохранить";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
@@ -217,7 +214,7 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1039, 652);
@@ -243,7 +240,6 @@
             this.menuStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
 
         #endregion
